@@ -42,6 +42,6 @@ The analysis revealed that for the given right-skewed dataset:
 
 * Foundational ML Knowledge: Demonstrated core competence in the mathematical principles of statistical modeling.
 
-Code Flexibility: Developed an object-oriented, parameter-driven custom class that allows users to easily toggle model configurations (scaling, intercept, updating).
+* Code Flexibility: Developed an object-oriented, parameter-driven custom class that allows users to easily toggle model configurations (scaling, intercept, updating).
 
-Data-Driven Decision Making: Ability to use analytical results (accuracy scores) to make informed decisions about feature engineering and model deployment.
+* Data-Driven Decision Making: Ability to use analytical results (accuracy scores) to make informed decisions about feature engineering and model deployment.
