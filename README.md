@@ -36,7 +36,7 @@ The analysis revealed that for the given right-skewed dataset:
 
 * Intercept Inclusion: The model performed marginally better when the Y-intercept was explicitly set to zero (no_intercept = True), suggesting a very strong proportional relationship between departure and arrival delays.
 
-* Best Performing Model: The default model, with no scaling and intercept exclusion, yielded the highest R-squared value of $\approx 0.928$ (and a high $r2\_score$ on test data of $\approx 0.937$).
+* Best Performing Model: The default model, with no scaling and intercept exclusion, yielded the highest R-squared value of $\approx 0.928$ (and a high $r2_score$ on test data of $\approx 0.937$).
 
 ## Key Professional Learnings (The Conclusion)
 
