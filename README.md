@@ -8,40 +8,26 @@ This project involves the recreation of a Simple Linear Regression (SLR) model f
 
 This project demonstrates a deep, fundamental understanding of linear algebra and statistical methods underpinning supervised machine learning:
 
-* First Principles Implementation: Proves the ability to translate mathematical formulas (e.g., Ordinary Least Squares for calculating slope $M$ and intercept $C$) directly into functional Python code.
+* Proves the ability to translate mathematical formulas (e.g., Ordinary Least Squares for calculating slope $M$ and intercept $C$) directly into functional Python code.
 
-* Performance Evaluation: Implemented and compared key model accuracy metrics (R-squared, RMSE, Covariance, Pearson Coefficient) to rigorously assess model fit.
+* Implemented and compared key model accuracy metrics to rigorously assess model fit.
 
-* Critical Feature Engineering: Investigated the practical effect of common data preprocessing steps (Min-Max Scaling and Z-Score Standardization) on model stability and predictive power for a skewed dataset.
+* Investigated the practical effect of common data preprocessing steps on model stability and predictive power for a skewed dataset.
 
 ## Technical Scope & Components 
 
 The project utilizes Python for all mathematical computation, modeling, and visualization:
 
-* Language & Libraries: Python (NumPy, Pandas, Matplotlib, sklearn.metrics for benchmark)
+* Language: Python
 
-* Custom Class: LinearRegression (including fit, predict, __scaling, __R2, __RMSE)
-
-* Preprocessing Methods: Min-Max Normalization and Z-Score Standardization
-
-* Dataset Analyzed: Flight Delay Data (Departure Delay in Minutes vs. Arrival Delay in Minutes)
-
-* Model Optimization: Comparative analysis across 5 model configurations.
+* Dataset Analyzed: Flight Delay Data
 
 ## Key Findings from Comparative Analysis
 
 The analysis revealed that for the given right-skewed dataset:
 
-* Preprocessing Impact: Applying Min-Max Normalization or Z-Score Standardization significantly decreased the R-squared score and predictive accuracy compared to using the raw, unscaled data.
+* Applying Min-Max Normalization or Z-Score Standardization significantly decreased the R-squared score and predictive accuracy compared to using the raw, unscaled data.
 
-* Intercept Inclusion: The model performed marginally better when the Y-intercept was explicitly set to zero (no_intercept = True), suggesting a very strong proportional relationship between departure and arrival delays.
+* The model performed marginally better when the Y-intercept was explicitly set to zero (no_intercept = True), suggesting a very strong proportional relationship between departure and arrival delays.
 
-* Best Performing Model: The default model, with no scaling and intercept exclusion, yielded the highest R-squared value of $\approx 0.928$ (and a high $r2\\_score$ on test data of $\approx 0.937$).
-
-## Key Professional Learnings (The Conclusion)
-
-* Foundational ML Knowledge: Demonstrated core competence in the mathematical principles of statistical modeling.
-
-* Code Flexibility: Developed an object-oriented, parameter-driven custom class that allows users to easily toggle model configurations (scaling, intercept, updating).
-
-* Data-Driven Decision Making: Ability to use analytical results (accuracy scores) to make informed decisions about feature engineering and model deployment.
+* The default model, with no scaling and intercept exclusion, yielded the highest R-squared value of $\approx 0.928$ (and a high $r2\\_score$ on test data of $\approx 0.937$).
